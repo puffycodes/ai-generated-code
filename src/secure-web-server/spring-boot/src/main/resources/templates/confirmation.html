@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation - Secure Web Server</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="container">
+        <h1>Message Submitted Successfully</h1>
+        
+        <div class="message-display">
+            <p><strong>Email:</strong> <span th:text="${message.email}"></span></p>
+            <p><strong>Message:</strong> <span th:text="${message.message}"></span></p>
+        </div>
+        
+        <a href="/submit" class="btn">Submit Another Message</a>
+        <a href="/" class="link">Back to Home</a>
+    </div>
+</body>
+</html>
