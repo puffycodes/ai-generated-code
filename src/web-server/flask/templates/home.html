@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Hello. Welcome to the Home Page.</h1>
+        <p><a href="{{ url_for('submit_form') }}">Submit Message</a></p>
+    </div>
+</body>
+</html>
