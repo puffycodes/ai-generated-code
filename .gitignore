@@ -1,3 +1,9 @@
 # file: .gitignore
 
+# Environment Setting Files
+.env
+
+# MacOS System Files
+.DS_Store
+
 # --- end of file --- #
