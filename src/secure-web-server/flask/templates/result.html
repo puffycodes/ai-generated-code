@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="result-content">
+    <h2>Message Submitted</h2>
+    
+    <div class="result-info">
+        <p><strong>Email:</strong> {{ email|e }}</p>
+        <p><strong>Message:</strong> {{ message|e }}</p>
+    </div>
+    
+    <p><a href="{{ url_for('submit') }}" class="btn">Submit Another Message</a></p>
+</div>
+{% endblock %}
