@@ -1,0 +1,22 @@
+# Build directories
+build/
+cmake-build-*/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled binaries
+secure_web_server
+*.exe
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
