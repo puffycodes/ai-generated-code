@@ -1,0 +1,5 @@
+webserver
+*.o
+*.exe
+.DS_Store
+*.log
