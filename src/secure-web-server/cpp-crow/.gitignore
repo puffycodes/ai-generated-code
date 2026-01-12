@@ -1,0 +1,17 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Compiled binaries
+secure_web_server
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
