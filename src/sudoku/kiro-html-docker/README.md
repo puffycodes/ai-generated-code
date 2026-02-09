@@ -42,6 +42,17 @@ A modern, single-file Sudoku game with an enhanced UI that runs in any web brows
 - Works offline
 - Responsive 50x50px cells with visual 3x3 box separation
 
+## Project Structure
+
+```
+.
+├── sudoku.html          # Main application file
+├── Dockerfile           # Docker image configuration
+├── docker-compose.yml   # Docker Compose setup
+├── .gitignore          # Git ignore rules
+└── README.md           # This file
+```
+
 ## Usage
 
 ### Docker (Recommended)
